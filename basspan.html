@@ -15,7 +15,7 @@
 </div>	
 <div class ="nav">
 <ul>
-  <li><a href="#Home">Home</a></li>
+  <center><a href="#Home">Home</a><center>
   <br>
   <br>
   <br>
@@ -23,7 +23,13 @@
   <br>
   <br>
   <br>
-  <li><a href="#Steelpan Select">Steelpan select</a></li>
+   <li class="dropdown">
+   <center><a href="javascript:void(0)" class="dropbtn">Select Pan</a><center>
+    <div class="dropdown-content">
+      <a href="#">Tenor</a>
+      <a href="#">Bass</a>
+	  </div>
+	  </li>
   <br>
   <br>
   <br>
@@ -31,7 +37,9 @@
   <br>
   <br>
   <br>
-  <li><a href="#about">About</a></li>
+  <br>
+  <br>
+  <center><a href="#about">About</a><center>
   <br>
   <br>
   <br>
@@ -39,7 +47,7 @@
   <br>
   <br>
   <br>
-  <li><a href="#contact us">Contact us</a></li>
+  <center><a href="#contact us">Contact us</a><center>
   
 </ul>
 </div>
@@ -51,7 +59,39 @@
   <button class="dropbtn">Select Note</button>
   <div class="dropdown-content">
 
+  <div class ="a4"</div>
+<button type="button"><audio id="audio" src="audio/a4.wav" autostart="false" ></audio>
+    <center><a onclick="PlaySound()">a4</a><center>
+    <script>
+    function PlaySound() {
+          var sound = document.getElementById("audio");
+          sound.play()
+      }
+    </script>
+			</div>
+			
+  <div class ="b4"</div>
+<button type="button"><audio id="audio" src="audio/b4.wav" autostart="false" ></audio>
+    <center><a onclick="PlaySound()">b4</a><center>
+    <script>
+    function PlaySound() {
+          var sound = document.getElementById("audio");
+          sound.play()
+      }
+    </script>
+			</div>
 
+<div class ="a5"</div>
+<button type="button"><audio id="audio" src="audio/a5.wav" autostart="false"></audio>
+  <center><a onclick="PlaySound()">a5</a><center> 
+  <script>
+    function PlaySound() {
+          var sound = document.getElementById("audio");
+          sound.play()
+      }
+    </script>
+			</div>
+  </div>
 </div>
 </div>
 </div>
