@@ -4,6 +4,7 @@ padding:18px;
 text-align:center;
 display: inline-block;
 float: left;
+background-color: grey;
 	
 }
 .title{
@@ -13,6 +14,7 @@ width:84%;
 height:131px;
 text-align:center;
 display: inline-block;
+background-color: #66C2FF;
 	
 	
 }
@@ -25,6 +27,7 @@ display: inline-block;
 	list-style-type: none;
     margin: 0;
     float: left;
+	background-color: LightSeaGreen ;
 	
 }
 .tenor{
@@ -34,6 +37,7 @@ display: inline-block;
 	padding:35px;
 	display: inline-block;
 	float: center;
+	background-color: gold;
 }
 .blank{
 	border-style:solid;

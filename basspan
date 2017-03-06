@@ -11,7 +11,7 @@
 		
 
 			<div class = "title">
-<h1> <p> Tenor pan home</p> </h1>
+<h1> <p> Bass pan home</p> </h1>
 </div>	
 <div class ="nav">
 <ul>
@@ -45,7 +45,7 @@
 </div>
 <div class="tenor">
 <center><div class=" blank"><center>
-<img src ="images/tenor.jpg" width="400px" height="360px"; >
+<img src ="images/bass.png" width="400px" height="360px"; >
 	
 	<center><div class="dropdown"><center>
   <button class="dropbtn">Select Note</button>
