@@ -5,16 +5,27 @@ text-align:center;
 display: inline-block;
 float: left;
 background-color: grey;
+<<<<<<< HEAD
 width: 15%;
 height:155px;
+=======
+>>>>>>> 71c6f98a5285eb6e69729aebcc3cf4ffe6ec1ac6
 	
 }
 .title{
 border-style:solid;
+<<<<<<< HEAD
 padding:18px;
 width:93%;
 height:155px;
 text-align:center;
+=======
+padding:30px;
+width:84%;
+height:131px;
+text-align:center;
+display: inline-block;
+>>>>>>> 71c6f98a5285eb6e69729aebcc3cf4ffe6ec1ac6
 background-color: #66C2FF;
 	
 	
@@ -22,8 +33,13 @@ background-color: #66C2FF;
 .nav{
 	border-style: solid;
 	padding:35px;
+<<<<<<< HEAD
 	width: 13%;
 	height: 2000px;
+=======
+	width: 155px;
+	height: 649px;
+>>>>>>> 71c6f98a5285eb6e69729aebcc3cf4ffe6ec1ac6
 	display: inline-block;
 	list-style-type: none;
     margin: 0;
@@ -32,6 +48,7 @@ background-color: #66C2FF;
 	 position: relative;
     display: inline-block;
 }
+<<<<<<< HEAD
 .Tenorheading{
 border-style:solid;
 padding:18px;
@@ -43,11 +60,17 @@ background-color:grey;
 }
 
 
+=======
+>>>>>>> 71c6f98a5285eb6e69729aebcc3cf4ffe6ec1ac6
 .dropdown:hover .dropdown-content {
     display: block;
 }
 	.dropdown-content {
+<<<<<<< HEAD
     display: inline;
+=======
+    display: none;
+>>>>>>> 71c6f98a5285eb6e69729aebcc3cf4ffe6ec1ac6
     position: absolute;
     background-color:LightSeaGreen ;
     min-width: 160px;
@@ -58,13 +81,29 @@ background-color:grey;
 
 .tenor{
 	border-style:solid;
+<<<<<<< HEAD
 	width: 70%;
 	height: 1625px;
+=======
+	width: 1567px;
+	height: 650px;
+>>>>>>> 71c6f98a5285eb6e69729aebcc3cf4ffe6ec1ac6
 	padding:35px;
 	display: inline-block;
 	float: center;
 	background-color: gold;
 }
+<<<<<<< HEAD
+=======
+.blank{
+	border-style:solid;
+	width: 1100px;
+	height: 567px;
+	padding:30px;
+	display: inline-block;
+	float: center;
+}
+>>>>>>> 71c6f98a5285eb6e69729aebcc3cf4ffe6ec1ac6
 	.notes{
 	border-style:solid;
 	width: 945px;
@@ -119,6 +158,7 @@ background-color:grey;
 .dropdown:hover .dropbtn {
     background-color: yellow;
 }
+<<<<<<< HEAD
 .Tenorstyle{
 	padding:60px;
 	border-style:solid;
@@ -157,4 +197,6 @@ background-color: grey;
 width: 25%;
 height:400px;
 }
+=======
+>>>>>>> 71c6f98a5285eb6e69729aebcc3cf4ffe6ec1ac6
 
