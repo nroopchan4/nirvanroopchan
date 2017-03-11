@@ -11,11 +11,11 @@
 		
 
 			<div class = "title">
-<h1> <p> Bass pan home</p> </h1>
+<h1> <p> Bass pan</p> </h1>
 </div>	
 <div class ="nav">
 <ul>
-  <li><a href="#Home">Home</a></li>
+ <center><a href="home.html">Home</a><center>
   <br>
   <br>
   <br>
@@ -23,7 +23,13 @@
   <br>
   <br>
   <br>
-  <li><a href="#Steelpan Select">Steelpan select</a></li>
+  <li class="dropdown">
+   <center><a href="javascript:void(0)" class="dropbtn">Select Pan</a><center>
+    <div class="dropdown-content">
+      <a href="tenor.html">Tenor</a>
+      <a href="basspan.html">Bass</a>
+	  </div>
+	  </li>
   <br>
   <br>
   <br>
@@ -31,7 +37,7 @@
   <br>
   <br>
   <br>
-  <li><a href="#about">About</a></li>
+ <center><a href="#about">About</a><center>
   <br>
   <br>
   <br>
@@ -39,19 +45,51 @@
   <br>
   <br>
   <br>
-  <li><a href="#contact us">Contact us</a></li>
+ <center><a href="#contact us">Contact us</a><center>
   
 </ul>
 </div>
 <div class="tenor">
-<center><div class=" blank"><center>
-<img src ="images/bass.png" width="400px" height="360px"; >
+
+<center><img src ="images/basspan.png" width="400px" height="360px"; ><center>
 	
 	<center><div class="dropdown"><center>
   <button class="dropbtn">Select Note</button>
   <div class="dropdown-content">
 
+  <div class ="a4"</div>
+<button type="button"><audio id="audio" src="audio/a4.wav" autostart="false" ></audio>
+    <center><a onclick="PlaySound()">a4</a><center>
+    <script>
+    function PlaySound() {
+          var sound = document.getElementById("audio");
+          sound.play()
+      }
+    </script>
+			</div>
+			
+  <div class ="b4"</div>
+<button type="button"><audio id="audio1" src="audio/b4.wav" autostart="false" ></audio>
+    <center><a onclick="PlaySound1()">b4</a><center>
+    <script>
+    function PlaySound1() {
+          var sound = document.getElementById("audio1");
+          sound.play()
+      }
+    </script>
+			</div>
 
+<div class ="a5"</div>
+<button type="button"><audio id="audio2" src="audio/a5.wav" autostart="false"></audio>
+  <center><a onclick="PlaySound2()">a5</a><center> 
+  <script>
+    function PlaySound2() {
+          var sound = document.getElementById("audio2");
+          sound.play()
+      }
+    </script>
+			</div>
+  </div>
 </div>
 </div>
 </div>
